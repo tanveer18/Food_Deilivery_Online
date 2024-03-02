@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Kdam Thmor Pro", sans-serif;
+
+}
+header::before{
+    background: url('diego-ph-fIq0tET6llw-unsplash.jpg');
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+section::after{
+    content: "this is befor and after content";
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    text-align: center;
+}
+section{
+    
+    height: 350px;
+    margin: 30px 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    /* border: 2px solid greenyellow; */
+}
+
+.navigation{
+    display: flex;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}

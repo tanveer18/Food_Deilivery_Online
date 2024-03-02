@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* navbar style */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: #35374b;
+}
+
+/* logo and image */
+
+#logo {
+  margin: 35px 45px;
+}
+#logo img {
+  height: 70px;
+}
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+ul li a {
+  padding: 5px;
+  margin: 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #35374b;
+  border-radius: 10px;
+}
+
+/* Home section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home::before {
+  content: "";
+  background: url("lukas-bee-RnnCdg63KBY-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+#home h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  font-family: "Hubballi", sans-serif;
+}
+#home p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.head-primary {
+  font-size: 2.8rem;
+  padding: 15px;
+}
+
+.h-primary {
+  margin-top: 22px;
+  font-size: 2.5rem;
+}
+.head-secondary {
+  font-size: 2.8rem;
+  padding: 15px;
+}
+.btn {
+  padding: 6px 20px;
+  border: 2px solid black;
+  background-color: #50727b;
+  margin: 10px 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
+#services {
+  margin: 30px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid brown;
+  padding: 20px;
+  margin: 15px 20px;
+  border-radius: 20px;
+  background-color: #50727b;
+}
+#services .box img {
+  height: 2 00px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 40%;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('arcode-acd-BKwECQ5MxM0-unsplash.jpg');
+    height: 45%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+#client-section{
+    height: 500px;
+}
+#client-section h1{
+    padding-top: 15px;
+}
+
+.client-item img{
+    height: 200px;
+    border-radius: 20px;
+}
+.client-item{
+    padding: 40px;
+}
